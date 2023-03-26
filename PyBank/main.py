@@ -58,7 +58,7 @@ with open(summary, "w") as file:
     file.write("\n")
     file.write(f"Total: ${sum(all_profit)}")
     file.write("\n")
-    file.write(f"Average Change: {round(sum(monthly_change)/len(monthly_change),2)}")
+    file.write(f"Average Change: ${round(sum(monthly_change)/len(monthly_change),2)}")
     file.write("\n")
     file.write(f"Greatest Increase in Profits: {all_months[maximum_increase_month]} (${(str(maximum_increase))})")
     file.write("\n")
