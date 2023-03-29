@@ -3,7 +3,7 @@ import os
 import csv
 
 #set file path
-filepath = os.path.join ('.', 'Starter_Code','PyBank','Resources','budget_data.csv')
+filepath = os.path.join ('.','Resources','budget_data.csv')
 
 #create list to store the data
 all_months = []
