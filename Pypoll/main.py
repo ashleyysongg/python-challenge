@@ -5,7 +5,7 @@ import os
 import csv
 
 #set file path
-file_path= os.path.join ('.', 'Starter_Code', 'PyPoll', 'Resources','election_data.csv')
+file_path= os.path.join ('.', 'Resources','election_data.csv')
 
 #declare all variables
 Stockham_ballot = 0
